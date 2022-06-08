@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import { Link } from "react-router-dom";
 import './css/App.css';
 import MainNav from './components/MainNav';
 import DecorationBar from './components/DecorationBar';
