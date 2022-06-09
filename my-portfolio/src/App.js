@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import './css/App.css';
 import MainNav from './components/MainNav';
 import DecorationBar from './components/DecorationBar';
@@ -11,6 +11,7 @@ function App() {
       <MainNav />
       <DecorationBar />
       <Main />
+      <Outlet />
     </div>
     
   );
