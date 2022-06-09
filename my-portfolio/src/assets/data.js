@@ -27,6 +27,31 @@ const projectData = [
         tech: ['JS', 'HTML', 'CSS', 'Web API'],
         github: 'https://github.com/powe0186/project1',
         live: 'https://powe0186.github.io/project1/'
+    },
+
+    {
+        projectName: 'Finnley is a Goof',
+        image: '../images/Bookworm.png',
+        description: 'A website for searching books.',
+        tech: ['JS', 'HTML', 'CSS', 'Web API'],
+        github: 'https://github.com/powe0186/project1',
+        live: 'https://powe0186.github.io/project1/'
+    },
+    {
+        projectName: 'Finnley is a Goof',
+        image: '../images/Bookworm.png',
+        description: 'A website for searching books.',
+        tech: ['JS', 'HTML', 'CSS', 'Web API'],
+        github: 'https://github.com/powe0186/project1',
+        live: 'https://powe0186.github.io/project1/'
+    },
+    {
+        projectName: 'Finnley is a Goof',
+        image: '../images/Bookworm.png',
+        description: 'A website for searching books.',
+        tech: ['JS', 'HTML', 'CSS', 'Web API'],
+        github: 'https://github.com/powe0186/project1',
+        live: 'https://powe0186.github.io/project1/'
     }
 ]
 
