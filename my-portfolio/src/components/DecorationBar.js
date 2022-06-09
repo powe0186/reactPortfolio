@@ -4,7 +4,9 @@ import background from "../images/binary.PNG"
 
 const sectionStyle = {
     backgroundImage: `url(${background})`,
+    backgroundRepeat: 'round',
     height: 90,
+    width: '1vp',
 }
 
 const DecorationBar = () => {

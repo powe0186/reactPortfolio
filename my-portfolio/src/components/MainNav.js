@@ -7,7 +7,8 @@ import '../css/MainNav.css';
 const navStyle = {
     backgroundColor: '#063049',
     height: 100,
-    fontSize: 25
+    fontSize: 20,
+    width: '1vp',
 }
 
 
@@ -17,13 +18,14 @@ const MainNav = () => {
             <Navbar expand="lg"  variant="dark" style={ navStyle }>
 
                 <Container >
-                    <Navbar.Brand href="#home" class="ml-5 textWhite" style={{fontSize: 30}}>Ben Powell's Coding Portfolio</Navbar.Brand>
+                    <Navbar.Brand href="#home" class="ml-5 textWhite" style={{fontSize: 25}}>Ben Powell's Coding Portfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto lm-5" >
                             <Link to="/"><Nav.Link href="#home" >Home</Nav.Link></Link>
                             <Link to="/aboutMe"><Nav.Link href="#link">About Me</Nav.Link></Link>
                             <Link to="/projects"><Nav.Link href="#link">Projects</Nav.Link></Link>
+                            <Link to="/resume"><Nav.Link href="#link">Resume</Nav.Link></Link>
                             <Link to="/contactInfo"><Nav.Link href="#link">Contact Info</Nav.Link></Link>
                             {/* If I need a dropdown later:
                                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
