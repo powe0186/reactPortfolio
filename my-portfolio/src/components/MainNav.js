@@ -24,7 +24,7 @@ const MainNav = () => {
                         <Nav className="me-auto lm-5" >
                             <Link to="/"><Nav.Link href="#home" >Home</Nav.Link></Link>
                             <Link to="/aboutMe"><Nav.Link href="#link">About Me</Nav.Link></Link>
-                            <Link to="/projects"><Nav.Link href="#link">Projects</Nav.Link></Link>
+                            <Link to="/projects"><Nav.Link href="#link">My Projects</Nav.Link></Link>
                             <Link to="/resume"><Nav.Link href="#link">Resume</Nav.Link></Link>
                             <Link to="/contactInfo"><Nav.Link href="#link">Contact Info</Nav.Link></Link>
                             {/* If I need a dropdown later:

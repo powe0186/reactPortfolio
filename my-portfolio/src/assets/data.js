@@ -1,5 +1,8 @@
 import bookwormPic from '../images/Bookworm.PNG';
-import pennyPic from '../images/penny.PNG'
+import pennyPic from '../images/penny.PNG';
+import bgPic from '../images/catan.jpg';
+import weatherPic from '../images/Weather.png';
+import bootcampForumPic from '../images/BootcapForum.png'
 
 const projectData = [
     {
@@ -21,38 +24,30 @@ const projectData = [
     },
 
     {
-        projectName: 'Project 2',
-        image: '../images/Bookworm.png',
-        description: 'A website for searching books.',
-        tech: ['JS', 'HTML', 'CSS', 'Web API'],
-        github: 'https://github.com/powe0186/project1',
-        live: 'https://powe0186.github.io/project1/'
+        projectName: 'Solo Board Gaming',
+        image: bgPic,
+        description: 'A website with JS powered "automas" used for playing a variety of board games solo.',
+        tech: ['JS', 'HTML', 'CSS'],
+        github: 'https://github.com/powe0186/boardGameAutomas',
+        live: 'https://powe0186.github.io/boardGameAutomas/'
     },
 
     {
-        projectName: 'Finnley is a Goof',
-        image: '../images/Bookworm.png',
-        description: 'A website for searching books.',
+        projectName: 'Weather Checker',
+        image: weatherPic,
+        description: 'A website for searching searching today\'s weather conditions and an extended forecast in any city.',
         tech: ['JS', 'HTML', 'CSS', 'Web API'],
-        github: 'https://github.com/powe0186/project1',
-        live: 'https://powe0186.github.io/project1/'
+        github: 'https://github.com/powe0186/weatherChecker',
+        live: 'https://powe0186.github.io/weatherChecker/'
     },
     {
-        projectName: 'Finnley is a Goof',
-        image: '../images/Bookworm.png',
-        description: 'A website for searching books.',
-        tech: ['JS', 'HTML', 'CSS', 'Web API'],
-        github: 'https://github.com/powe0186/project1',
-        live: 'https://powe0186.github.io/project1/'
+        projectName: 'Bootcamp Forum',
+        image: bootcampForumPic,
+        description: 'A social media site for bootcamp students. Post advice, check in with colleagues, and let everyone know when you have a job offer.',
+        tech: ['express', 'handlebars', 'mysql2', 'nodemailer'],
+        github: 'https://github.com/midth002/bootcamp-forum',
+        live: 'https://quiet-inlet-26349.herokuapp.com/login'
     },
-    {
-        projectName: 'Finnley is a Goof',
-        image: '../images/Bookworm.png',
-        description: 'A website for searching books.',
-        tech: ['JS', 'HTML', 'CSS', 'Web API'],
-        github: 'https://github.com/powe0186/project1',
-        live: 'https://powe0186.github.io/project1/'
-    }
 ]
 
 export default projectData;

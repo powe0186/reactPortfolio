@@ -1,5 +1,6 @@
-import pic from '../images/Bookworm.PNG';
+import { Link } from 'react-router-dom'
 import { Card, Button, ListGroup } from 'react-bootstrap';
+import { DiGithubBadge } from 'react-icons/di';
 
 
 const buttonsStyle = {
@@ -34,8 +35,8 @@ const Project = (props) => {
                     <ListGroup.Item style={ {backgroundColor: '#063049'}}></ListGroup.Item>
                 </ListGroup>
             <div style={buttonsStyle}>
-                <Button variant="primary">Github</Button>
-                <Button variant="primary">Live</Button>
+                <a href={props.props.github}><Button variant="primary"><DiGithubBadge /></Button></a>
+                <a href={props.props.live}><Button variant="primary">Live</Button></a>
             </div>
         </Card.Body>
         </Card >
